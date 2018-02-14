@@ -20,7 +20,9 @@ class School
   end 
   
   def sort 
-    @roster.each {|student array| student_array.sort}
+    @roster.each do |student array| 
+      student_array.sort
+    end  
   end  
     
 end  
