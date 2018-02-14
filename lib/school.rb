@@ -15,7 +15,7 @@ class School
       @roster[grade] = []
       @roster[grade] << student
     else
-      student << student.push
+      @roster[grade] << student
     end  
   end  
     
