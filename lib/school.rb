@@ -24,8 +24,9 @@ class School
   def sort 
     
     @roster.each do |grade, student_array| 
-      binding.pry
+      #binding.pry
       student_array = student_array.sort
+      binding.pry
       puts student_array
     end
     @roster.sort
