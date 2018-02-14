@@ -23,6 +23,7 @@ class School
     
     @roster.each do |grade, student_array| 
       student_array.sort
+      puts student_array
     end
     @roster.sort
    
